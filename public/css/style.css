@@ -1,0 +1,14 @@
+#verhalen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#verhalen iframe {
+    border: none; /* Removes default iframe border */
+    width: 8.27in; /* Width of A4 paper */
+    height: 11.69in; /* Height of A4 paper */
+    margin: 1em 0; /* Optional: Adds some vertical spacing between iframes */
+}
